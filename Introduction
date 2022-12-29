@@ -1,0 +1,25 @@
+Hey Smit, 
+Welcome to your Saltubolic Experience!!! We're excited to have you onboard. 
+Here is basically all of the documentation you should know for the API:
+1. https://docs.gspread.org/en/latest/api/models/worksheet.html
+2. https://docs.gspread.org/en/latest/api/models/cell.html
+3. https://docs.gspread.org/en/latest/oauth2.html#for-bots-using-service-account
+4. https://developers.google.com/sheets/api/guides/concepts
+
+Here is the high-level layout. Google Cloud Platform enables us to use their applications via service account, which is the goofy email
+that your dummy program is shared with. In order for that service account to be authenized, we have a credential file
+"tes_json"(sorry if its a little complicated, feel free to change its name). You will use its absolute path when working in drive, 
+or when its not in your current working directory. 
+
+Gspread uses Google Sheets API on the back-end, henceforth it inherits its RESTful interface. Please feel free to explore how you can optimize
+the time/space complexity of product features by intertwining the two. 
+
+The MRO for Gspread is Spreadsheet, Worksheet, Cell in descending order. They all have special methods that you can use for parsing/seralizing data 
+from/in Google Sheets. 
+
+
+The project on Google Cloud Platform is shared with your email, so you can view Request Traffic, Errors and Median Latency. Be careful!!
+There is a catch!!! The API's have rate limitations...Make sure to review those and test them!!!
+
+I(Michael) have linked a notebook with necessary code to begin testing...
+This is a dummy testing key and a program, so feel free to let your creativity run wild. 
